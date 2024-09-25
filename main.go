@@ -188,8 +188,6 @@ func usage() {
 	fmt.Println("     - smember (key): 获取指定集合的所有元素")
 	fmt.Println()
 	fmt.Println("2. 选择使用说明书查看程序的使用方法")
-	fmt.Println("   - 输入 'usage' 可随时查看此帮助信息")
 	fmt.Println()
 	fmt.Println("3. 选择退出系统结束程序")
-	fmt.Println("   - 输入 'exit' 或选择退出选项可安全退出程序")
 }
