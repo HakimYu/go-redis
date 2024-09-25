@@ -38,7 +38,7 @@ func main() {
 
 func commandLine() {
 	shell := ishell.New()
-	loggedIn := true
+	loggedIn := false
 	shell.Println("命令行...输入help查看帮助")
 	shell.AddCmd(&ishell.Cmd{
 		Name: "login",
